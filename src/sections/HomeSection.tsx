@@ -17,13 +17,13 @@ export default function HomeSection({}: Props) {
       <div className='container flex h-full w-full flex-col items-center justify-center gap-10 lg:flex-row lg:justify-between'>
         <div className='flex flex-col items-center justify-center text-center lg:items-start lg:text-start'>
           <h1 className='text-hero-title text-white '>
-            Khafidh Ihyauddin Calon DPRD Kabupaten Lamongan
+            Rian Septrianto Maulana, S.M. Calon DPR PUSAT
           </h1>
           <h3 className='text-hero-subtitle max-w-lg pt-4'>
             <center>Membangun Negeri Tanpa Melupakan Jati Diri Sebagai Nahdliyin Sejati</center>
           </h3>
           <NextButton className='mt-5 bg-secondary text-white' size='lg' onClick={handleClick}>
-            DAPIL 4 LAMONGAN
+            DAPIL JATIM X GRESIK - LAMONGAN
           </NextButton>
         </div>
         <div className='relative '>
@@ -35,11 +35,11 @@ export default function HomeSection({}: Props) {
               01
             </div>
             <p className='text-primary-text text-base font-medium'>
-              Khafidh Ihyauddin
+              Rian Septrianto Maulana, S.M.
             </p>
             <Image
               src='/imgku.png'
-              alt='Khafidh Ihyauddin'
+              alt='Rian Septrianto Maulana, S.M.'
               className='h-6 w-6 object-cover'
             />
           </div>
@@ -59,14 +59,14 @@ export default function HomeSection({}: Props) {
             </p>
             <Image
               src='/nail.png'
-              alt='Khafidh Ihyauddin'
+              alt='Rian Septrianto Maulana, S.M.'
               className='h-6 w-6 rotate-[30deg] object-cover'
             />
           </div>
           <div className='relative overflow-y-hidden rounded-2xl bg-white/20 backdrop-blur-lg'>
             <Image
-              src='/khafidh.png'
-              alt='Khafidh Ihyauddin'
+              src='/cakrian.png'
+              alt='Rian Septrianto Maulana, S.M.'
               className=' relative -bottom-10 z-0 h-[520px] w-[450px] object-cover drop-shadow-2xl sm:h-[550px]'
             />
           </div>
@@ -74,7 +74,7 @@ export default function HomeSection({}: Props) {
       </div>
       <div className=''>
         <p className='text-hero-subtitle pb-5 text-center md:pb-10'>
-          Khafidh Ihyauddin
+          Rian Septrianto Maulana, S.M.
         </p>
         
       </div>
